@@ -1,0 +1,24 @@
+{
+  "question": [
+    "Qual é a complexidade de tempo do algoritmo de busca binária?",
+    "Qual é a complexidade de inserir um elemento no final de uma lista Python usando append()?",
+    "Qual é a complexidade do algoritmo Bubble Sort no pior caso?",
+    "Qual é a complexidade do algoritmo Merge Sort no pior caso?",
+    "O que representa a notação Big O?"
+  ],
+  "options": [
+    ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    ["O(n)", "O(n log n)", "O(log n)", "O(n^2)"],
+    ["O(n)", "O(n^2)", "O(log n)", "O(n log n)"],
+    ["Taxa de compressão", "Número de loops", "Crescimento da complexidade no pior caso", "Tempo médio de execução"]
+  ],
+  "answer": [2, 1, 4, 4, 3],
+  "explanations": [
+    "A busca binária divide a entrada pela metade a cada passo, resultando em O(log n).",
+    "O append() é O(1) porque adiciona no final da lista sem realocação na maioria dos casos.",
+    "O Bubble Sort compara pares adjacentes repetidamente, o que resulta em O(n^2) no pior caso.",
+    "O Merge Sort divide e conquista, mesmo no pior caso ele mantém O(n log n).",
+    "Big O descreve como a complexidade do algoritmo cresce com a entrada no pior cenário."
+  ]
+}
